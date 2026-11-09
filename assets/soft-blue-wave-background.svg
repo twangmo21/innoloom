@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <rect width="1600" height="900" fill="#F1F6FC"/>
+  <path d="M0 150 C105 150 170 118 230 70 C305 10 390 18 515 75 C395 48 333 95 275 151 C207 218 115 253 0 265 Z" fill="#DCE8F5" opacity=".95"/>
+  <path d="M0 185 C105 182 171 148 227 105 C294 55 355 57 445 91 C355 88 306 130 250 180 C182 240 99 278 0 286 Z" fill="#C9DDF8" opacity=".75"/>
+  <path d="M1600 635 C1500 645 1428 686 1350 746 C1275 806 1202 857 1098 900 L1600 900 Z" fill="#C8DDF8"/>
+  <path d="M1600 680 C1500 695 1430 742 1360 792 C1290 843 1237 879 1172 900 L1600 900 Z" fill="#8FB7EC" opacity=".92"/>
+  <path d="M1600 735 C1510 748 1446 782 1390 824 C1341 861 1290 887 1240 900 L1600 900 Z" fill="#6FA3E4" opacity=".82"/>
+  <path d="M0 0 H1600 V8 H0 Z" fill="#FFFFFF" opacity=".35"/>
+</svg>

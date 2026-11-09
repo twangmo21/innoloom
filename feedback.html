@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Feedback — Innoloom</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="feedback">
+  <header id="site-header"></header>
+
+  <main class="auth-shell feedback-shell">
+    <section class="auth-card feedback-card" aria-labelledby="feedback-title">
+      <div class="feedback-intro">
+        <span class="feedback-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 5.5A2.5 2.5 0 0 1 6.5 3h11A2.5 2.5 0 0 1 20 5.5v8a2.5 2.5 0 0 1-2.5 2.5H10l-5.5 4v-4.3A2.5 2.5 0 0 1 4 13.5z"/>
+            <path d="M8 8h8M8 11.5h8"/>
+          </svg>
+        </span>
+        <span class="feedback-heading-divider" aria-hidden="true"></span>
+        <div class="feedback-intro-copy">
+          <h1 id="feedback-title">Help us improve.</h1>
+          <p>Send a suggestion, report an issue, or tell us what would make the learning experience better.</p>
+        </div>
+      </div>
+
+      <form id="feedback-form" novalidate>
+        <div class="form-group">
+          <label for="feedback-topic">Topic</label>
+          <input id="feedback-topic" name="topic" required maxlength="120" placeholder="e.g. course content, website issue...">
+          <small class="field-error"></small>
+        </div>
+        <div class="form-group">
+          <label for="feedback-text">Your feedback</label>
+          <textarea id="feedback-text" name="feedback" rows="4" required minlength="10" maxlength="1000" placeholder="Write your feedback here..."></textarea>
+          <small class="field-error"></small>
+        </div>
+        <button class="btn btn-primary feedback-submit" type="submit">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="m22 2-7 20-4-9-9-4Z"/>
+            <path d="M22 2 11 13"/>
+          </svg>
+          Submit
+        </button>
+        <p id="feedback-message" class="form-message" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
